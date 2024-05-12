@@ -58,7 +58,7 @@ public class Homework6_1 {
 
     public int maxDepth(Node root) {
         int maxDepth = 0;
-        int currentDepth = 0;
+        int currentDepth;
 
         if(root == null) throw new IllegalArgumentException();
         maxDepth++;
